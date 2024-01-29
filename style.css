@@ -41,7 +41,11 @@ h2{
 
 .produto {
     margin: 20px;
-    text-align: center;     
+    text-align: center;    
+}
+
+.imagem{
+    padding: 20px;
 }
 
 select {
