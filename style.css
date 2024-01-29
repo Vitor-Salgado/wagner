@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 20px;
+}
+
+#descricao{
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+}
+
+h2{
+    padding: 20px;
+}
+
+#logo {
+    max-width: 150px;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.produto {
+    margin: 20px;
+    text-align: center;     
+}
+
+select {
+    margin: 10px 0;
+}
+
+#adicional{
+    padding: 20px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#contato {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#contato button {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
