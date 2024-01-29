@@ -6,9 +6,10 @@ body {
 
 header {
     position: relative;
-    background-color: #f2f2f2;
+    background-color: rgb(56, 182, 255);
     padding: 20px;
     text-align: center;
+    color: white;
 }
 
 header h1 {
@@ -19,6 +20,8 @@ header h1 {
     padding: 20px;
     margin: auto;
     max-width: 800px;
+    font-size: 1.5em;
+    text-align: justify;
 }
 
 h2{
@@ -55,7 +58,7 @@ ul{
 }
 
 #contato {
-    background-color: #333;
+    background-color: rgb(56, 182, 255);
     color: white;
     text-align: center;
     padding: 20px;
