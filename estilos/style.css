@@ -120,3 +120,14 @@ ul{
     background-color: #116630;
     font-size: 1.1em;
 }
+
+#whats{
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+#tel{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
