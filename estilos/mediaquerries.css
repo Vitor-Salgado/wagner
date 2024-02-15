@@ -1,10 +1,15 @@
 @charset "UTF-8";
 
+:root {
+    --cor-1: rgb(253, 211, 48);
+    --cor-2: rgb(255, 240, 22);
+}
+
 @media screen and (max-width: 768px) {
 #burguer{
     display: block;
-    background-color: rgb(56, 182, 255);
-    color: white;
+    background-color: var(--cor-1);
+    color: black;
     padding: 10px;
     cursor: pointer;
     text-align: center;
@@ -14,7 +19,7 @@
     width: 80vw;   
 }
 #burguer:hover{
-    background-color: rgb(32, 99, 138);
+    background-color: var(--cor-2);
 }
 menu{
     display: none;

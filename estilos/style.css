@@ -1,7 +1,14 @@
+:root {
+    --cor-1: rgb(253, 211, 48);
+    --cor-2: rgb(255, 240, 22);
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0px;
     padding: 0px;
+    color: black;
+    background-color: rgba(244, 245, 245);
 }
 
 *{
@@ -14,7 +21,7 @@ body {
 }
 
 menu{
-    background-color:rgb(56, 182, 255) ;
+    background-color:var(--cor-1) ;
     padding-bottom: 10px;
 }
 
@@ -23,7 +30,7 @@ menu ul li{
 }
 
 .menuitens{
-    color: white;
+    color: black;
     font-size: 1.5em;
     padding: 10px;
     margin: auto;
@@ -35,14 +42,15 @@ menu ul li a{
 }
 
 menu ul li a:hover{
-    background-color: rgb(32, 99, 138);
-    color: white;
+    background-color: var(--cor-2);
+    color: black;
 }
 
 header {
-    background-color: rgb(56, 182, 255);
+    background-color: var(--cor-1);
     text-align: center;
-    color: white;
+    color: black;
+    font-weight: bolder;
     padding: 20px;
     max-width: 100vw;
 }
@@ -64,11 +72,11 @@ h1{
 
 a{
     text-decoration: none;
-    color: rgb(56, 182, 255);
+    color: black;
 }
 
 a:hover{
-    color:rgb(32, 99, 138) ;
+    color:var(--cor-1) ;
     text-decoration: underline;
 }
 h2{
@@ -86,6 +94,11 @@ h2{
     padding: 20px;
 }
 
+div{
+    background-color: var(--cor-1);
+    padding: 30px;
+}
+
 .produto {
     margin: 20px;
     text-align: center;    
@@ -101,8 +114,8 @@ ul{
 }
 
 #contato {
-    background-color: rgb(56, 182, 255);
-    color: white;
+    background-color: var(--cor-1);
+    color: black;
     text-align: center;
     padding: 20px;
 }
