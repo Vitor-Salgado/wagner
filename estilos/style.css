@@ -83,6 +83,10 @@ h2{
     padding: 20px;
 }
 
+video{
+    width: 90%;
+}
+
 #logo {
     max-width: 250px;
 }
