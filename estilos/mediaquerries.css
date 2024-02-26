@@ -34,4 +34,9 @@ menu ul li{
     .imagem{
         height: 525px;
     }
+
+    video{
+        width: 90%;
+        height: 525px;
+    }
 }
